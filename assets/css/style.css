@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@500&display=swap');
+
+body {
+    font-family: 'SUSE', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #E8E4DB;
+    color: #687351;
+    height: 90px;
+    display: flex;
+    
+}
+
+header h1{
+    flex: 20;
+    padding-left: 15px;
+}
+
+nav {
+    flex: 80;
+    text-align: right;
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 20px 0px 0px;
+}
+
+nav a {
+    color: #687351;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C9C1AE;
+    text-decoration: none;
+    color: #687351;
+    background-color: #9BA17F;
+    padding: 5px
+}
+
+hero{
+    background-color: #9BA17F;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hero img {
+    width:120px ;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+hero h2 {
+    color: #E8E4DB;
+    margin: 0px;
+}
+
+.cta{
+    padding: 10px;
+    margin-top: 0px;
+}
+
+.btn-cta {
+    background-color: #687351 ;
+    color: #E8E4DB;
+    padding: 6px 6px 6px 6px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+#about {
+    display: flex;
+    border: 1px solid #687351;
+    margin: 30px;
+    border-radius: 7px;
+    gap: 20px;
+}
+    
+.about-left {
+    flex: 50px;
+    padding-left: 10px;
+}
+
+.about-right{
+    flex: 50px;
+}
+
+.title {
+    text-align: center;
+}
+
+#skills {
+    display: flex;
+    gap: 5;
+    border:1px solid #687351 ;
+    margin: 30px;
+}
+
+.skills-left {
+    flex: 50;
+    padding-left: 10px;
+    padding-right: 15px;
+}
+
+.skills-right {
+    flex: 50;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+#progress {
+    background-color: #9BA17F;    
+}
+
+#progress > div {
+    background-color: #687351;    
+    height: 20px;
+    text-align: center;
+}
+
+#pendidikan {
+    display: flex;
+    gap: 30px;
+    border:1px solid #687351;
+    margin: 30px;
+}
+
+.pendidikan-left {
+    flex: 40;
+    padding-left: 10px;
+    padding-right: 15px;
+    background-color: #9BA17F;
+    text-align: center ;
+}
+
+.pendidikan-right {
+    flex: 60;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.sekolah {
+    font-size: medium;
+    color: #A9A9A9;
+}
+
+#contact {
+    display: flex;
+    gap: 8;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    border-radius: 5px;
+    margin: 25px;
+}
+.left-contact {
+    flex: 50;
+    padding: 5px 0px 7px 10px;
+}
+.left-contact input {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #064789;
+    border-radius: 5px;
+    Box-sizing: border-box;
+}
+
+.left-contact textarea {
+    width: 100%;
+    height: 120px;
+    padding: 5px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    order: 1px solid #064789;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.contact-btn {
+    width: 100%;
+    padding: 5px 5px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    background-color: #064789;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #fff;
+}
+.right-contact {
+    flex: 50;
+    padding: 5px 10px 5px 15px;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*justify-content: center;*/
+    background-color: #ccc;
+    padding: 10px;
+    line-height: normal;
+}
+
+.icon-sosmed {
+    margin-right: 4px;
+    margin-bottom: 0;
+    color: #427aa1;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.icon-sosmed:hover {
+    color: #064789;
+}
+footer h3 {
+    font-size: 23px;
+    color: #064789;
+    padding: 2px;
+    margin: 2px;
+}
+
+footer p {
+    color: #064789;
+    margin: 2px;
+    padding: 3px;
+}
