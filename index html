@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Profile Khoeru Thoriiq</title>
+        <link rel="stylesheet" href="./assets/styles/style.css">
+    </head>
+    <body>
+        <header>
+        <h1>JosGandos</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">portofolio</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <hero>
+            <img src="./assets/img/thoriq.jpg">
+            <h2>Khoeru Thoriiq</h2>
+            <p>Fullstack Web Developer</p>
+            <div class= "cta">
+                <a href="" class= "btn-cta"> hire me </a>
+                <a href="" class= "btn-cta"> download CV </a>
+            </div>
+        </hero>
+        <section id="about">
+            <div class= "about-left">
+                <h2>about</h2>
+                <p> Hello Nama Saya Khoeru Thoriiq, Saya Web Developer, Designer, Dan pelajar SMK Teknik Komputer Jaringana</p>
+                <p>Saya sedang belajar dan mengembangkan kemampuan di bidang pemrograman web, Saat ini saya sedang belajar di SMK Mahadhika 4 Jakarta jurusan Teknik Komputer Jaringan.</p>
+            </div>
+            <div class="about-right">
+                <h1>Basic Information</h1>
+                <table>
+                    <tr>
+                        <td>age:</td>
+                        <td>17 tahun</td>
+                    </tr>
+                    <tr>
+                        <td>email:</td>
+                        <td>wiratara330@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>addres:</td>
+                        <td>Cimanggis,Depok Jln.HJ.Nipan Rt.06 Rw.02</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <h2 class="title">profesional skills</h2>
+        <section id="skills">
+            <div class="skills-left">
+                <p>HTML</p>
+                <div id="progress">
+                  <div style="width:50%">50%</div>
+                </div>
+                <p>CSS</p>
+                <div id="progress">
+                    <div style="width:70%">70%</div>
+                </div>
+            </div>
+        <div class="skills-right">
+            <p>PHP</p>
+            <div id="progress">
+                <div style="width:40%">40%</div>
+            </div>
+            <p>MySQL</p>
+            <div id="progress">
+                <div style="width:60%">60%</div>
+            </div>
+        </div>
+        </section>
+        <h2 class="title">pendidikan</h2>
+        <section id="pendidikan">
+            <div class="pendidikan-left">
+             <p>2014-2020</p>
+             <h3>Sekolah Dasar</h3>
+            </div>
+            <div class="pendidikan-right">
+                <p>Sekolah Dasar</p>
+                <p class=sekolah>SDN Tugu 9 Depok</p>
+                <p>Cimanggis,Depok, kelurahan Tugu, Jln.Hj.Icang </p>
+            </div>
+        </section>
+        <section id="pendidikan">
+            <div class="pendidikan-left">
+             <p>2020-2023</p>
+             <h3>Sekolah Menengah Pertama</h3>
+            </div>
+            <div class="pendidikan-right">
+                <p>Sekolah Menengah Pertama</p>
+                <p class="sekolah">SMPN 8 Depok</p>
+                <p>Cimanggis, Depok</p>
+            </div>
+        </section>
+        <section id="pendidikan">
+            <div class="pendidikan-left">
+             <p>2023-2026</p>
+             <h3>Sekolah Menengah Kejuruan</h3>
+            </div>
+            <div class="pendidikan-right">
+                <p>Sekolah Menengah Kejuruan</p>
+                <p class="sekolah">SMK Mahadhika 4</p>
+                <p>Jakarta timur, kelurahan Pasar Rebo, Jln. Bengrah </p>
+            </div>
+            </div>
+        </section>
+        <h2 class="title">Contact</h2>
+        <section id="contact">
+         <div class="left-contact">
+           <h4>Contact Me</h4>
+           <form method="post" action="message.php">
+             <label>Nama Lengkap</label>
+             <input type="text" name="nama" required /><br />
+             <label>Alamat Email</label>
+             <input type="email" name="email" required /><br />
+             <label>Judul Pesan</label>
+             <input type="text" name="judul" required /><br />
+             <label>Pesan</label>
+             <textarea name="pesan" rows="5" cols="50" required>
+Pesan anda...</textarea
+             ><br />
+             <button type="submit" class="contact-btn">KIRIM PESAN</button>
+             </form>
+           </div>
+           <div class="right-contact">
+             <h4>My Location</h4>
+             <iframe
+             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d206.84503252533332!2d106.85825927494865!3d-6.364408345455144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec66a3a648bb%3A0x78713aec4e382ca4!2sJl.%20H.%20Nipan%2C%20Kec.%20Cimanggis%2C%20Kota%20Depok%2C%20Jawa%20Barat%2016451!5e1!3m2!1sid!2sid!4v1731726872066!5m2!1sid!2sid"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+               </div>
+             </section>
+        </main>
+        <footer>
+        <div>
+          <a href="" class="icon-sosmed"
+          ><i class="ri-facebook-fill ri-lg"></i
+          ></a>
+          <a href="" class="icon-sosmed"
+          ><i class="ri-instagram-fill ri-lg"></i
+          ><a href="" class="icon-sosmed"
+          ><i class="ri-twitter-x-fill ri-lg"></i
+          ></a>
+          <a href="" class="icon-sosmed"><i class="ri-tiktok-fill ri-
+lg"></i></a>
+          </div>
+          <h3>SMK Mahadhika 4</h3>
+          <p>
+          <i class="ri-whatsapp-fill"></i> 081399301794 |
+          <i class="ri-mail-fill"></i> webdev@mahadhika.sch.id
+          </p>
+    </footer>
+    </body>
+</html>
