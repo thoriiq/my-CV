@@ -273,4 +273,7 @@ footer p {
     .about-right {
        flex-direction: column;
     }
+    #pendidikan {
+        flex-direction: column;
+    }
 }
