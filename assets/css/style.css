@@ -239,7 +239,10 @@ footer p {
 
 /* Media Query */
 @media  screeen and (max-width: 768px){
-h1 {
+header {
+    flex-direction:column;
+}
+header h1 {
 display: none;
  }
 
