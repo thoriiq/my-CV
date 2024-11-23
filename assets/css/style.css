@@ -14,7 +14,7 @@ header {
     
 }
 
-header h1{
+header h1 {
     flex: 20;
     padding-left: 15px;
 }
@@ -50,6 +50,7 @@ hero{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 hero img {
@@ -64,9 +65,10 @@ hero h2 {
     margin: 0px;
 }
 
-.cta{
+.cta {
     padding: 10px;
-    margin-top: 0px;
+    margin: 2px;
+    
 }
 
 .btn-cta {
@@ -237,13 +239,38 @@ footer p {
     padding: 3px;
 }
 
-/* Media Query */
-@media  screeen and (max-width: 768px){
-header {
-    flex-direction:column;
-}
-header h1 {
-display: none;
- }
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction:column;
+    }
 
+    header h1 {
+        display: none;
+    }
+ 
+    nav {
+        text-align: center;
+        flex-wrap: wrap;
+        column-gap: 5rem;
+    }
+    
+    .cta{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+    }
+    
+    #about {
+        flex-direction: column;
+        
+    }
+    
+    #skills {
+        flex-direction: columns;
+    }
+    
+    .about-right {
+       flex-direction: column;
+    }
 }
