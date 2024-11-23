@@ -267,7 +267,7 @@ footer p {
     }
     
     #skills {
-        flex-direction: columns;
+        flex-direction: column;
     }
     
     .about-right {
