@@ -276,4 +276,7 @@ footer p {
     #pendidikan {
         flex-direction: column;
     }
+    #contact {
+        flex-direction: column;
+    }
 }
